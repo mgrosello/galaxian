@@ -1,0 +1,19 @@
+{
+  "name": "sdl_galaxian",
+  "version": "1.0.0",
+  "description": "Galaxian clone in SDL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently --kill-others \"nodemon -x compilar.bat -e c,h\" \"browser-sync start --server build --files build/*.html --index galaxian.html\""
+  },
+  "author": "Miquel Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "concurrently": "^6.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

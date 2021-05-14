@@ -1,0 +1,17 @@
+node_modules
+.DS_Store
+target
+jgalaxian/.classpath
+jgalaxian/.settings
+jgalaxian/.vscode
+jgalaxian/.project
+jgalaxian/parts
+jgalaxian/prime
+jgalaxian/stage
+jgalaxian/snap/.snapcraft
+jgalaxian/debian/.debhelper
+jgalaxian/target
+jgalaxian/**/*.jar
+.vscode
+sdl_galaxian/build
+sdl_galaxian/node_modules

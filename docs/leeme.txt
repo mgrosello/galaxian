@@ -1,0 +1,4 @@
+https://www.arcade-history.com/?n=galaxian&page=detail&id=901
+npx nodemon -x compilar.bat -e c,h
+npx browser-sync start --server build --files build/*.html --index galaxian.html
+
